@@ -138,7 +138,7 @@ If you would rather upload a file and get a finished PDF, the hosted audit on th
 
 ## The data behind the lookups
 
-Every lookup is answered from the register of more than 20,000 domains that also feeds the team's [AI risk assessment tools](https://www.aitoolsblocklist.com). Traffic that turns out not to be AI can still be labelled: [URL categorization API](https://www.urlcategorizationdatabase.com/api-docs.php) lookups cover general browsing, and the [website categorization API for IAB labels](https://www.websitecategorizationapi.com) covers the rest live.
+Every lookup is answered from the register of more than 20,000 domains that also feeds the team's [AI risk assessment tools](https://www.aitoolsblocklist.com/ai-risk-assessment.php). Traffic that turns out not to be AI can still be labelled: [URL categorization API](https://www.urlcategorizationdatabase.com/api-docs.php) lookups cover general browsing, and the [website categorization API for IAB labels](https://www.websitecategorizationapi.com) covers the rest live.
 
 Other packages for the same audit:
 
