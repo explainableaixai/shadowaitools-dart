@@ -115,7 +115,7 @@ The implementations share service concepts but follow the conventions of their l
 
 The following links connect this package to complementary layers used in broader governance and classification systems. Each description identifies a distinct job rather than repeating a product name:
 
-- [Dart and Flutter intelligence feed for recognizing AI services in Shadow AI Tools workflows](https://www.aitoolsblocklist.com)
+- [Shadow AI Tools in Dart and Flutter draws its AI-domain data from AI Tools Blocklist](https://www.aitoolsblocklist.com)
 - [Dart and Flutter workflow for exposing unapproved AI adoption alongside Shadow AI Tools](https://www.shadowaitools.com)
 - [Dart and Flutter companion data for portfolio analysis within Shadow AI Tools deployments](https://www.urlcategorizationdatabase.com)
 - [Dart and Flutter enrichment layer connecting Shadow AI Tools with pre-run URL audits](https://www.aiagentallowlist.com)

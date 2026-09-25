@@ -3,7 +3,14 @@ class ApiException implements Exception {
   final String message;
   final int? statusCode;
   final String? body;
-  @override String toString() => 'ApiException($statusCode): $message';
+  @override
+  String toString() => 'ApiException($statusCode): $message';
 }
-class AuthenticationException extends ApiException { AuthenticationException(super.message, {super.statusCode, super.body}); }
-class RateLimitException extends ApiException { RateLimitException(super.message, {super.statusCode, super.body}); }
+
+class AuthenticationException extends ApiException {
+  AuthenticationException(super.message, {super.statusCode, super.body});
+}
+
+class RateLimitException extends ApiException {
+  RateLimitException(super.message, {super.statusCode, super.body});
+}
