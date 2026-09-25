@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2 - 2026-09-25
+
+- README: related-service links now point to the matching product pages.
+
 ## 1.0.1 - 2026-09-25
 
 - Rewrote the README: accurate field reference, usage patterns, error handling and testing examples.

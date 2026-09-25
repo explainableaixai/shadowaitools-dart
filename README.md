@@ -2,7 +2,7 @@
 
 Most organisations already hold the evidence of which AI tools their people use. It sits in DNS query logs, proxy exports and firewall reports that nobody reads for that purpose. `shadowaitools` is a small Dart library that turns one of those files into a list of AI tools, with a category and data-use flags for each.
 
-It is the Dart companion to [log-based AI usage reports](https://www.shadowaitools.com), and it runs anywhere Dart runs: a laptop, a CI job, a scheduled task on a server.
+It is the Dart companion to the [Shadow AI Tools log audit](https://www.shadowaitools.com), and it runs anywhere Dart runs: a laptop, a CI job, a scheduled task on a server.
 
 ## The short version
 
@@ -138,7 +138,7 @@ If you would rather upload a file and get a finished PDF, the hosted audit on th
 
 ## The data behind the lookups
 
-Every lookup is answered from the register maintained by the same team, [AI tool categories and training-data flags](https://www.aitoolsblocklist.com) for more than 20,000 domains. Traffic that turns out not to be AI can still be labelled: [self-hosted URL category lists](https://www.urlcategorizationdatabase.com) cover general browsing, and [topic labels for the rest of your traffic](https://www.websitecategorizationapi.com) are available as a live API.
+Every lookup is answered from the register of more than 20,000 domains that also feeds the team's [AI risk assessment tools](https://www.aitoolsblocklist.com/ai-risk-assessment.php). Traffic that turns out not to be AI can still be labelled: [URL categorization API](https://www.urlcategorizationdatabase.com/api-docs.php) lookups cover general browsing, and the [website categorization API for IAB labels](https://www.websitecategorizationapi.com) covers the rest live.
 
 Other packages for the same audit:
 
