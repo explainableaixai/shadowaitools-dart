@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.3 - 2026-09-26
+
+- README: AI Tools Blocklist links point to its homepage.
+
 ## 1.0.2 - 2026-09-25
 
 - README: related-service links now point to the matching product pages.
